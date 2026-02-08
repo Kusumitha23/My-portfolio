@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Basic Portfolio</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;   /* light background */
+      color: #333;                /* dark text */
+    }
+  
+    h1 {
+      color: #2c3e50;
+    }
+  
+    h2 {
+      color: #1f6feb;             /* blue headings */
+    }
+  
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #1f6feb;  /* blue button */
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  
+    button:hover {
+      background-color: #1558b0;  /* darker blue on hover */
+    }
+  
+    section {
+      margin: 40px auto;
+      background-color: white;
+      width: 80%;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  
+    ul.skills li {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 8px 12px;
+      background-color: #e8f0fe;  /* light blue */
+      border-radius: 6px;
+    }
+  
+    footer {
+      margin-top: 30px;
+      color: #666;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <h1>Kusumitha Katamreddy</h1>
+  <pre>Contact:6305580214       Mail: kusumithakatamreddy@gmail.com</pre>
+  <p>Student | Beginner Web Developer</p>
+
+  <!-- Navigation buttons -->
+  <button onclick="document.getElementById('about').scrollIntoView()">About</button>
+  <button onclick="document.getElementById('skills').scrollIntoView()">Skills</button>
+  <button onclick="document.getElementById('projects').scrollIntoView()">Projects</button>
+  <button onclick="document.getElementById('details').scrollIntoView()">Education</button>
+  <button onclick="document.getElementById('strengths').scrollIntoView()">Strengths</button>
+
+
+  <hr>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student learning web development. <br>This is my basic portfolio website
+      with a little CSS and centered layout.<br>
+      I am also learning how to Analyse data using datasets.<br>
+      Languages I know : Telugu ,English, Hindi ,Basic Spanish
+
+
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <ul class="skills" style="list-style: none; padding: 0; text-align: center;">
+        <li>• HTML</li>
+        <li>• Basic CSS</li>
+        <li>• Python</li>
+        <li>• Data Analysis</li>
+        <li>• JAVA</li>
+      </ul>
+      
+
+  </section>
+
+  <hr>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ol style="list-style-position: inside;">
+      <li>Basic Portfolio Website</li>
+    </ol>
+  </section>
+
+  <hr>
+  <section id="details">
+    <h2>Education</h2>
+    <p> UG education details : Btech CSE CORE in VIT-AP University 2023-2027.
+        <pre>Pass out year: 2027      Current CGPA: 8.41 </pre> 
+  </p>
+  <p> Intermediate education details : Narayana Junior College ,Nellore 2021-2023.
+    <pre>Pass out year: 2023      Perecentage: 94.2 </pre> 
+</p>
+<p>High school education details :Ratnam E.M High School 2020-2021.
+    <pre>Board: SSC      Percentage:100 </pre> 
+</p>
+  </section>
+
+  <hr>
+  <section id="strengths">
+    <h2>Strengths</h2>
+    <ul style="list-style: none; ">
+      <li>Speak clearly and directly,Able to express ideas in a way that others easily understand</li>
+      <li>Lead team without fear. Succesfully lead a team ,achieving collaborative goals</li>
+
+    </ul>
+  </section>
+
+  <button onclick="alert('Thank you for visiting my portfolio!')">Click Me</button>
+
+  <p>© 2026 Kusumitha Katamreddy</p>
+
+</body>
+</html>
